@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "name": "file",
+      "type": "org.allivia.api.alliviaapi.entities.AppFichadocumentosEntity",
+      "sourceType": "org.allivia.api.alliviaapi.entities.AppFichadocumentosEntity"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file.descripcion",
+      "type": "java.lang.String",
+      "sourceType": "org.allivia.api.alliviaapi.entities.AppFichadocumentosEntity"
+    },
+    {
+      "name": "file.formato",
+      "type": "java.lang.String",
+      "sourceType": "org.allivia.api.alliviaapi.entities.AppFichadocumentosEntity"
+    },
+    {
+      "name": "file.id",
+      "type": "java.lang.Long",
+      "sourceType": "org.allivia.api.alliviaapi.entities.AppFichadocumentosEntity",
+      "defaultValue": 0
+    },
+    {
+      "name": "file.id-fichamedica",
+      "type": "java.lang.Long",
+      "sourceType": "org.allivia.api.alliviaapi.entities.AppFichadocumentosEntity",
+      "defaultValue": 0
+    },
+    {
+      "name": "file.nombrearchivo",
+      "type": "java.lang.String",
+      "sourceType": "org.allivia.api.alliviaapi.entities.AppFichadocumentosEntity"
+    },
+    {
+      "name": "file.path",
+      "type": "java.lang.String",
+      "sourceType": "org.allivia.api.alliviaapi.entities.AppFichadocumentosEntity"
+    }
+  ],
+  "hints": []
+}

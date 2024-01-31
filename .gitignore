@@ -1,0 +1,17 @@
+.DS_Store
+.env
+log
+logs
+D:
+
+# Excluye archivos VIM
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags

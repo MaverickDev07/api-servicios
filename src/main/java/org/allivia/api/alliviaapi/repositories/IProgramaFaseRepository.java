@@ -1,0 +1,16 @@
+package org.allivia.api.alliviaapi.repositories;
+
+
+import org.allivia.api.alliviaapi.entities.AppProgramafaseEntity;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+
+@Repository
+public interface IProgramaFaseRepository extends CrudRepository<AppProgramafaseEntity,Long> {
+
+        List<AppProgramafaseEntity> findByIdProgramaAndEliminadoFalse(long idPrograma);
+
+}
